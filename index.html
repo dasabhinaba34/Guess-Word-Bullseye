@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Word Guessing Game - Hitbullseye Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="card">
+        <img id="logo"src="https://mba.hitbullseye.com/mbamobileapp/images/logo-1.png" alt="hitbulls logo">
+      <h1><b>Guess the Word</b></h1>
+      <div class="content">
+        <input type="text" class="typing-input" maxlength="1">
+        <div class="inputs"></div>
+        <div class="details">
+          <p class="hint"><b>Hint :</b> <span></span></p>
+          <p class="guess-left"><b>Remaining Guesses :</b> <span></span></p>
+          <p class="wrong-letter"><b>Wrong Letters :</b> <span></span></p>
+        </div>
+        <button class="reset-btn">Reset and Try Again</button>
+      </div>
+    </div>
+
+    <script src="javascript/words.js"></script>
+    <script src="javascript/script.js"></script>
+
+  </body>
+</html>
